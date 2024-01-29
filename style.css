@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2e2f36;
+  }
+  a {
+    padding: 10px 15px;
+    background-color: #2e2f36;
+    color: snow;
+  }
+  a:hover {
+    background-color: black;
+    color: snow;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rightSide,
+  .leftSide {
+    display: flex;
+    list-style: none;
+  }
+  .leftSide li {
+    padding: 15px 25px;
+    position: relative;
+  }
+  .leftSide li:hover {
+    background-color: #058f5c;
+    color: white;
+  }
+  .leftSide span {
+    border: 2px solid #9e9292;
+    border-radius: 50px;
+    margin: 10px;
+  }
+  span input {
+    border-radius: 50px;
+    border: none;
+    text-shadow: none;
+    margin: 5px;
+    outline: none;
+  }
+  .dayNight {
+    margin: 20px 5px;
+    padding: 3px;
+  }
+  .dayNight:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .rightSide li {
+    margin: 2px 4px;
+    padding: 8px 10px;
+    border-radius: 50px;
+  }
+  .rightSide li:hover {
+    background-color: #e0e0e0;
+  }
+  .rightSide span {
+    display: flex;
+    background-color: #04aa6d69;
+    border-radius: 50px;
+    margin-right: 20px;
+  }
+  .rightSide span #sign {
+    background-color: #04aa6d;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  
+  .rightSide span #log {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    text-align: end;
+  }
+  nav:hover{
+    cursor: pointer;
+
+  }
